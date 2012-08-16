@@ -1,0 +1,28 @@
+{
+	"name": "phpbb/logging-admin-interface-bundle",
+	"description": "A symfony bundle that provides an admin GUI for logs.",
+	"keywords": ["phpBB", "logs", "tools", "logging"],
+	"type": "symfony-bundle",
+	"homepage": "http://www.phpbb.com",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "phpBB Group",
+			"email": "operations@phpbb.com",
+			"homepage": "https://phpbb.com/"
+		}
+	],
+	"require": {
+		"symfony/symfony": "2.1.*"
+	},
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0": { "phpBB\\LoggingAdminInterfaceBundle": "" }
+	},
+	"target-dir": "phpBB/LoggingAdminInterfaceBundle",
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.0-dev"
+		}
+	}
+}
