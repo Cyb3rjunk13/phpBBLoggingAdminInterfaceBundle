@@ -13,7 +13,8 @@
 		}
 	],
 	"require": {
-		"symfony/symfony": "2.1.*"
+		"symfony/symfony": "2.1.*",
+		"phpbb/admin-panel-bundle": "dev-master"
 	},
 	"minimum-stability": "dev",
 	"autoload": {
