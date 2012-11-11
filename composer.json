@@ -18,7 +18,6 @@
     },
 	"require": {
 		"symfony/symfony": "2.1.*",
-		"phpbb/admin-panel-bundle": "dev-master",
         "symfony/monolog-bundle": "dev-master"
 	},
 	"minimum-stability": "dev",
